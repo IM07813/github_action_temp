@@ -1,0 +1,23 @@
+name: Hello World  # Name shown in GitHub Actions tab
+
+on:               # TRIGGER: when does this run?
+  push:           # Run whenever code is pushed
+    branches:
+      - main      # Only on the main branch
+
+jobs:             # JOBS: what to do
+  say-hello:      # Job name (you choose this)
+    runs-on: ubuntu-latest   # Use GitHub's free Ubuntu machine
+
+    steps:        # STEPS: individual tasks in order
+      - name: Print a greeting
+        run: echo "Hello from GitHub Actions! 🎉"
+
+      - name: Show the date and time
+        run: date
+
+      - name: Show which directory we're in
+        run: pwd
+
+      - name: List files in the runner
+        run: ls -la
