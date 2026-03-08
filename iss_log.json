@@ -404,5 +404,12 @@
     "longitude": "106.4301",
     "google_maps": "https://www.google.com/maps?q=-14.0196,106.4301",
     "speed_kmh": 27600
+  },
+  {
+    "timestamp_utc": "2026-03-08 02:25:52",
+    "latitude": "32.4572",
+    "longitude": "-91.8172",
+    "google_maps": "https://www.google.com/maps?q=32.4572,-91.8172",
+    "speed_kmh": 27600
   }
 ]
